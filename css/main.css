@@ -1,0 +1,130 @@
+/* 
+Project Name: Stowarzyszenie Na Rzecz Wsi Jaroszów i Rusko
+Client: Zbigniew Milek
+Author: Aleksandra Milek
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+}
+img {
+	max-width:100%;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* add type styles here */
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+.site-container {
+	max-width: 100%;
+	margin: 0 auto;
+}
+.site-header {
+	padding: 20px;
+	color: #fff;
+	background: #000;
+}
+.site-nav {
+	float: right;
+	font-size: 1.25em;
+	text-transform: uppercase;
+}
+.site-nav ul {
+	padding-top: 60px;
+	list-style: none;
+}
+.site-nav li {
+	display: inline-block;
+	margin-right: 0.5em;
+}
+.site-nav a {
+	color: #fff;
+	text-decoration: none;
+}
+.toplogo {
+	float: left;
+	display: block;
+	padding-left: 40px;
+}
+.nav-icon,
+.nav-icon:before,
+.nav-icon:after {
+	content:"";
+	position:absolute;
+	right:1em;
+	width:2em;
+	height:2em;
+	border-top:0.25em solid #fff;
+}
+.nav-icon {
+	display:none;
+	top:0.75em;
+	margin-top: 1em;
+}
+@media screen and (max-width: 640px) {
+	.nav-icon { display:block; }
+}
+.nav-icon:before {
+	top:0.25em;
+	right:0;
+}
+.nav-icon:after {
+	top:0.75em;
+	right:0;
+}
+.site-content {
+	color: red;
+	font: ;
+}
+.site-footer {
+	padding: 20px;
+	color: #fff;
+	background: #000;
+}
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
